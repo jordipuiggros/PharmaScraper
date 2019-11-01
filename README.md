@@ -1,5 +1,5 @@
 # PharmaScraper
-Scraper que descarrega totes les direccions i telèfons de farmacies del estat continguts en el següent lloc web: http://esfarmacia.es/
+Scraper que descarrega totes les direccions i telèfons de farmacies del Estat i que estiguin continguts en el següent lloc web: http://esfarmacia.es/
 
 Pel correcte funcionament d'aquest scraper s'empraran dos fitxers de codi:
 
