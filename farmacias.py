@@ -35,6 +35,13 @@ class Farm():
     def obtenirFarmacia(self,url):
         page = requests.get(url)
         html = BeautifulSoup(page.content, features="html.parser")
+        Farmacia=""
+        Titular=""
+        Direccio=""
+        Municipi=""
+        Provincia=""
+        Comunitat=""
+        Telefon=""
         for strong in html.find_all('strong'):
             li=strong.find_previous()
             if li.text.find("Farmacia:")==0:
